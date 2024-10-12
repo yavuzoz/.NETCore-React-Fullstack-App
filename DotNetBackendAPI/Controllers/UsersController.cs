@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 
 using Personal_info_API.Dao;
-
-using Personal_info_API.Model;
+using Personal_info_API.Data.Model;
+using Personal_info_API.Data;
 
 namespace Personal_info_API.Controllers
 {

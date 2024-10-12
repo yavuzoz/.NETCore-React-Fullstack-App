@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using Npgsql;
 using NpgsqlTypes;
-using Personal_info_API.Model;
+using Personal_info_API.Data.Model;
 using System.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 

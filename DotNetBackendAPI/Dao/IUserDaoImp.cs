@@ -1,4 +1,6 @@
-﻿using Personal_info_API.Model;
+﻿using Personal_info_API.Data.Model;
+using Npgsql;
+using Personal_info_API.Data;
 
 namespace Personal_info_API.Dao
 {
