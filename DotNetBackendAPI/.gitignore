@@ -1,0 +1,15 @@
+# Ignore the bin and obj directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+
+# Ignore secrets folder
+secret/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
