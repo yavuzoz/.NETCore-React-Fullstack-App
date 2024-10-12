@@ -1,5 +1,6 @@
 ﻿using Personal_info_API.Data.Model;
-using Npgsql;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.AspNetCore.Http;
 using Personal_info_API.Data;
 
 namespace Personal_info_API.Dao

@@ -1,15 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Personal_info_API.Data.Model;
-using System.Collections.Generic;
+using Personal_info_API.Data.Model;using Personal_info_API.Data;
 
 namespace Personal_info_API.Data
 {
     public class AppDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-VQGH9P1\\SQLEXPRESS;initial Catalog=MyApiDb;integrated Security=true;TrustServerCertificate=True;");
-        }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
     }
