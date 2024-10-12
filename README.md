@@ -1,1 +1,0 @@
-# .NETCore-React-Fullstack-App
