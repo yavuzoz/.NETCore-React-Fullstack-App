@@ -3,10 +3,10 @@
 ## Screenshots
 
 ### Get Users
-![Get Users](DotNetBackendAPI/Images/add-user.png)
+![Get Users](DotNetBackendAPI/Images/get-user.png)
 
 ### Add User
-![Add User](https://github.com/DotNetBackendAPI/Images/get-user.png)
+![Add User](DotNetBackendAPI/Images/add-user.png)
 
 ## Overview
 This project is a **Personal Information Management System** built with a React frontend and a .NET Core Web API backend. Users can perform CRUD operations on personal information and upload profile images.
@@ -36,9 +36,35 @@ This project is a **Personal Information Management System** built with a React 
 2. Update the connection string in `appsettings.json`.
 
 ### Backend Setup
-1. Clone the repository and navigate to the backend folder:
-   ```bash
-   cd backend
-   dotnet restore
-   dotnet ef database update
-   dotnet run
+### Clone the Repository
+To clone this project locally, run the following commands:
+
+git clone https://github.com/yavuzoz/.NETCore-React-Fullstack-App.git
+cd DotNetBackendAPI
+
+### Install the required dependencies and update the database:
+
+dotnet restore
+dotnet ef database update
+
+### Run the backend server:
+
+dotnet run
+
+### Frontend Setup
+
+Navigate to the frontend folder:
+
+cd React-Client
+
+### Install the dependencies:
+
+npm install
+
+### Start the React development server:
+
+npm start
+
+### The frontend will be running on http://localhost:3000 and the backend API will be available on http://localhost:5183.
+
+
